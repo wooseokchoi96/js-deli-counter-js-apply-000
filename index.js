@@ -3,8 +3,8 @@ function takeANumber (katzDeliLine,customer) {
   return `Welcome, ${customer}. You are number ${katzDeliLine.length} in line.`;
 }
 
+var counter = 0 ;
 function takeANumberNew (katzDeliLine) {
-  var counter = 0;
   counter += 1;
   katzDeliLine.push(counter);
   return 'Welcome you have ticket number ${counter}.'
