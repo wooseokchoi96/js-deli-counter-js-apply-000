@@ -4,8 +4,8 @@ function takeANumber (katzDeliLine,customer) {
 }
 
 function takeANumberNew (katzDeliLine) {
-  var counter;
-  counter+=1;
+  var counter = 0;
+  counter += 1;
   katzDeliLine.push(counter);
   return 'Welcome you have ticket number ${counter}.'
 }
